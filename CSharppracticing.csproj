@@ -6,7 +6,7 @@
     <RootNamespace>C_practicing</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_practicing.Methods.Class1</StartupObject>
+    <StartupObject>C_practicing.level2.Class4</StartupObject>
   </PropertyGroup>
 
 </Project>

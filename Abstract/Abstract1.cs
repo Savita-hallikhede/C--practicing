@@ -8,6 +8,8 @@ namespace C_practicing.Abstract
         // Abstract method (only declaration)
         public abstract void Show();
 
+        public abstract void Show1();
+
         // Normal method with body
         public void Display()
         {
@@ -23,12 +25,17 @@ namespace C_practicing.Abstract
         {
             Console.WriteLine("This is the implementation of the abstract method in the derived class.");
         }
+
+        public override void Show1()
+        {
+            Console.WriteLine("This is the implementation of the second abstract method in the derived class.");
+        }
     }
 
     class Program
     {
         // Entry point of program
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Creating object of derived class
             Demo d = new Demo();

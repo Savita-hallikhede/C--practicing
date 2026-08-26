@@ -9,12 +9,12 @@ namespace C_practicing.Methods
     internal class Instantmethod
     {
         //void type --> no return
-         public int c;
+        public int c;
         public void soumya(int a,int b)
         {
             //int c;  //local variable
             c = a + b;
-           // Console.WriteLine(c);
+           Console.WriteLine(c);
 
         }
 
@@ -29,8 +29,8 @@ namespace C_practicing.Methods
 
         public static void Main()
         {
-            //Instantmethod obj = new Instantmethod();
-            //obj.soumya(10, 20);
+            Instantmethod obj = new Instantmethod();
+            obj.soumya(10, 20);
             //Console.WriteLine(obj.c);
 
             Instantmethod obj1 = new Instantmethod();
